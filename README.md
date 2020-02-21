@@ -54,6 +54,7 @@ Evicts the owner of the house that the player is standing in. Should be admin on
 Removes the house that the player is standing in from the catalog. Should be admin only. Permission: realestate.removehouse
 
 ## Config
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RealEstateConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- Currency symbol used in RealEstate chat messages -->
@@ -75,3 +76,4 @@ Removes the house that the player is standing in from the catalog. Should be adm
   <homes />
   <displayNames />
 </RealEstateConfiguration>
+```
